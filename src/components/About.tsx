@@ -6,9 +6,12 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+        I am Suraj Maurya, a passionate Full Stack Developer
+with expertise in both Frontend and Backend development.
+I build modern web applications using React and Next.js
+on the frontend, and Node.js with MongoDB on the backend.
+I love turning ideas into clean, scalable and
+high-performance digital experiences.
         </p>
       </div>
     </div>
