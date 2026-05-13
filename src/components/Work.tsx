@@ -63,7 +63,7 @@ const Work = () => {
                 <a href="https://github.com/Maurya009" target="_blank" style={{color: "white"}}>GitHub →</a>
               </div>
             </div>
-            <WorkImage image="/images/placeholder.webp" alt="RYDEX" />
+            <WorkImage image="/images/rydex.webp" alt="RYDEX" />
           </div>
           <div className="work-box">
             <div className="work-info">
