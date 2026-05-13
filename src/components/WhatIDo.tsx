@@ -17,6 +17,7 @@ const WhatIDo = () => {
       });
     }
     return () => {
+      // eslint-disable-next-line react-hooks/exhaustive-deps
       containerRef.current.forEach((container) => {
         if (container) {
           container.removeEventListener("click", () => handleClick(container));
@@ -90,8 +91,12 @@ const WhatIDo = () => {
               <h3>DEVELOP</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae.
+              <h4>Full Stack Web Development</h4>
+<p>
+  I build modern, scalable and responsive web applications 
+  using MERN Stack. From designing APIs to building 
+  interactive UIs — I handle both frontend and backend.
+</p>
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
@@ -131,8 +136,12 @@ const WhatIDo = () => {
               <h3>DESIGN</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae
+              <h4>UI/UX & Responsive Design</h4>
+<p>
+  I create clean and user-friendly interfaces with 
+  attention to detail, smooth animations and 
+  great user experience.
+</p>
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
